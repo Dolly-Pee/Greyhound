@@ -1,0 +1,73 @@
+#contact-us__section{
+    padding-top: 10.5rem;
+    margin-bottom: 4rem;
+}
+
+.contact-us__container{
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-us__container .input__wrapper{
+    width: 68%;
+}
+.contact-us__container .contact-us_text{
+    width: 32%;
+}
+.input__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-bottom: 1rem;
+    gap: 2rem;
+}
+.input__container input{
+    width: 100%;
+}
+
+.product_details{
+    width: 100%;
+    line-break: strict;
+}
+
+input, textarea{
+    border: none;
+    border-bottom: 1px solid var(--other_products_color);
+    outline: none;
+    padding: .8em 0;
+}
+
+textarea{
+    resize: none;
+    height: 50px;
+}
+
+::placeholder{
+    font-size: 16px;
+}
+
+.contact-us_text p{
+    letter-spacing: 1px;
+}
+
+.quotation_btn{
+    gap: .5rem;
+    background-color: var(--text_Color);
+    color: var(--white_color);
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 18px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 660px) {
+    .contact-us__container{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .contact-us__container .input__wrapper,
+    .contact-us__container .contact-us_text{
+        width: 100%;
+    }
+}
