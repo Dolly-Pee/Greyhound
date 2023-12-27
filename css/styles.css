@@ -506,7 +506,7 @@ a .much_more {
 .clients__container {
     gap: 2.7rem;
     animation-name: moving_clients;
-    animation-duration: 20s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-delay: unset;
     position: relative;
@@ -687,6 +687,9 @@ footer .email_container {
     .quick_links {
         padding-left: 0;
     }
+    .ellipse{
+        display: none;
+    }
 }
 
 @media (max-width: 1195px) {
@@ -794,7 +797,7 @@ footer .email_container {
     }
 
     .clients__container img {
-        width: 100px;
+        width: 170px;
         height: 120px;
     }
     .clients__container {
@@ -859,27 +862,37 @@ footer .email_container {
 
 @keyframes moving_clients {
     0% {
-        transform: translateX(-1250px);
+        transform: translateX(-3100px);
     }
 
     100% {
-        transform: translateX(1250px);
+        transform: translateX(1400px);
     }
 }
 
 @keyframes moving_clients1 {
     0% {
-        transform: translateX(-1250px);
+        transform: translateX(-3100px);
     }
 
     100% {
-        transform: translateX(1100px);
+        transform: translateX(1200px);
     }
 }
 
 @keyframes moving_clients2 {
     0% {
-        transform: translateX(-1000px);
+        transform: translateX(-3100px);
+    }
+
+    100% {
+        transform: translateX(700px);
+    }
+}
+
+@keyframes moving_clients3 {
+    0% {
+        transform: translateX(-2600px);
     }
 
     100% {
@@ -887,9 +900,9 @@ footer .email_container {
     }
 }
 
-@keyframes moving_clients3 {
+@keyframes moving_clients4 {
     0% {
-        transform: translateX(-1000px);
+        transform: translateX(-2600px);
     }
 
     100% {
@@ -897,23 +910,13 @@ footer .email_container {
     }
 }
 
-@keyframes moving_clients4 {
-    0% {
-        transform: translateX(-1000px);
-    }
-
-    100% {
-        transform: translateX(400px);
-    }
-}
-
 
 @keyframes moving_clients5 {
     0% {
-        transform: translateX(-1000px);
+        transform: translateX(-2400px);
     }
 
     100% {
-        transform: translateX(350px);
+        transform: translateX(450px);
     }
 }
