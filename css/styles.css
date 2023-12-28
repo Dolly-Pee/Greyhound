@@ -505,7 +505,7 @@ a .much_more {
 
 .clients__container {
     gap: 2.7rem;
-/*     animation-name: moving_clients; */
+    animation-name: moving_clients;
     animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-delay: 30s;
@@ -860,7 +860,7 @@ footer .email_container {
 
 /* Adding a moving animation to the company partners(CLIENTS) */
 
-/* @keyframes moving_clients {
+@keyframes moving_clients {
     0% {
         transform: translateX(-3100px);
     }
@@ -919,4 +919,4 @@ footer .email_container {
     100% {
         transform: translateX(450px);
     }
-} */
+}
