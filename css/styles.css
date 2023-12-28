@@ -508,7 +508,7 @@ a .much_more {
     animation-name: moving_clients;
     animation-duration: 30s;
     animation-iteration-count: infinite;
-    animation-delay: unset;
+    animation-delay: 5s;
     position: relative;
     animation-timing-function: linear;
 }
