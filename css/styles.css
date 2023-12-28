@@ -505,7 +505,7 @@ a .much_more {
 
 .clients__container {
     gap: 2.7rem;
-    animation-name: moving_clients;
+/*     animation-name: moving_clients; */
     animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-delay: 30s;
